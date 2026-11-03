@@ -16,3 +16,7 @@
 
 /* Public research software and data links */
 .profile-github{margin-top:14px;font:600 12px/1.5 var(--sans);color:var(--teal);border-bottom:1px solid var(--line);padding-bottom:3px}.profile-github:hover{color:var(--accent)}.paper-resources{margin-top:12px}.paper-resources a{display:inline-block;font:500 11px/1.6 var(--mono);color:var(--teal);letter-spacing:.02em;border-bottom:1px solid var(--line);padding-bottom:3px;overflow-wrap:anywhere}.paper-resources a:hover{color:var(--accent)}
+
+/* Conference dates use compact labels to fit beside talk titles. */
+#talks .pub-year>span{font:12px/1.6 var(--mono);padding-right:12px;overflow-wrap:anywhere}
+@media(max-width:720px){#talks .pub-year{grid-template-columns:1fr;gap:10px}#talks .pub-year>span{font-size:11px}#talks .pubs-in-year article{padding-top:0}}
