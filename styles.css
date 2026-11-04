@@ -20,3 +20,13 @@
 /* Conference dates use compact labels to fit beside talk titles. */
 #talks .pub-year>span{font:12px/1.6 var(--mono);padding-right:12px;overflow-wrap:anywhere}
 @media(max-width:720px){#talks .pub-year{grid-template-columns:1fr;gap:10px}#talks .pub-year>span{font-size:11px}#talks .pubs-in-year article{padding-top:0}}
+
+/* Balanced About rows: introduction above experience and highlights. */
+.about-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px clamp(28px,4vw,64px);align-items:start}
+.about-grid>*{min-width:0}.about-title{padding-right:0}.about-intro{font:400 18px/1.65 var(--serif);margin:0;overflow-wrap:break-word}.zh .about-intro{font-family:var(--sans)}
+.about-grid>.timeline{margin:0}.about-highlights .award{margin:0 0 22px;padding:4px 0 4px 18px;font-size:13px}.about-highlights .methods{margin:0;font-size:13px}
+.timeline>div{grid-template-columns:minmax(110px,.36fr) minmax(0,1fr);gap:16px}.timeline>div>span{min-width:0;overflow-wrap:break-word}
+section[id]{scroll-margin-top:24px}
+@media(max-width:900px){.about-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:26px}.about-title{padding:0}.about h2{margin-bottom:0}.about-intro{max-width:760px}.about-highlights{margin-top:2px}}
+@media(max-width:480px){.timeline>div{grid-template-columns:100px minmax(0,1fr);gap:12px}}
+@media(max-width:400px){.site-header nav{gap:11px;font-size:9px;letter-spacing:.04em}}
