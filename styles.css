@@ -49,3 +49,10 @@ section[id]{scroll-margin-top:24px}
 .about-title .about-intro{margin-top:24px}
 
 .zh .about h2{text-wrap:balance}
+
+/* Honours follow the selected talks near the end of the page. */
+.talk-honours{margin:32px 0 0 22%;padding-top:24px;border-top:1px solid var(--line)}.talk-honours>h3{font:500 22px/1.4 var(--serif);margin:0 0 20px}.zh .talk-honours>h3{font-family:var(--sans)}
+@media(max-width:1000px){.talk-honours{margin-left:18%}}
+@media(max-width:720px){.talk-honours{margin-left:0}}
+
+.degree-note{display:block;margin-top:2px;font-size:11px;color:var(--muted)}
