@@ -38,3 +38,5 @@ section[id]{scroll-margin-top:24px}
 .pub-category>span{font:500 17px/1.5 var(--sans);padding-right:24px;overflow-wrap:break-word}
 #talks .pub-year{padding:16px 0}#talks .pubs-in-year article{padding:0}#talks .pubs-in-year h3{font-size:18px;margin:5px 0 6px}#talks .pubs-in-year p{line-height:1.6;margin-top:3px}
 @media(max-width:720px){.pub-category{grid-template-columns:1fr;gap:14px}.pub-category>span{font-size:17px;padding-right:0}}
+
+.research-links{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:baseline}
