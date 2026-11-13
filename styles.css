@@ -33,5 +33,8 @@ section[id]{scroll-margin-top:24px}
 
 /* Publisher citations link directly to the paper; project labels remain compact. */
 .journal-citation{color:#0000ff;font:12px/1.6 var(--sans)}.journal-citation:hover{text-decoration:underline}
-#software .pub-year>span{font:12px/1.6 var(--mono);padding-right:12px}#software .pubs-in-year p{font-size:13px;line-height:1.7}
-@media(max-width:720px){#software .pub-year{grid-template-columns:1fr;gap:10px}#software .pubs-in-year article{padding-top:0}}
+
+/* Research categories retain the existing publication layout. */
+.pub-category>span{font:500 17px/1.5 var(--sans);padding-right:24px;overflow-wrap:break-word}
+#talks .pub-year{padding:16px 0}#talks .pubs-in-year article{padding:0}#talks .pubs-in-year h3{font-size:18px;margin:5px 0 6px}#talks .pubs-in-year p{line-height:1.6;margin-top:3px}
+@media(max-width:720px){.pub-category{grid-template-columns:1fr;gap:14px}.pub-category>span{font-size:17px;padding-right:0}}
