@@ -42,6 +42,10 @@ section[id]{scroll-margin-top:24px}
 .research-links{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:baseline}
 
 /* Education and appointments sit with the introduction, beside the portrait. */
-.hero-copy .hero-timeline{align-self:stretch;width:100%;margin:24px 0 0}.hero-timeline>div{grid-template-columns:110px minmax(0,1fr);gap:14px;padding:13px 0;font-size:12px;line-height:1.5}.hero-timeline time{line-height:1.6}.about-grid>.about-title{grid-row:span 2}
-@media(max-width:900px){.about-grid>.about-title{grid-row:auto}}
+.hero-copy .hero-timeline{align-self:stretch;width:100%;margin:24px 0 0}.hero-timeline>div{grid-template-columns:110px minmax(0,1fr);gap:14px;padding:13px 0;font-size:12px;line-height:1.5}.hero-timeline time{line-height:1.6}
 @media(max-width:480px){.hero-timeline>div{grid-template-columns:98px minmax(0,1fr);gap:12px}}
+
+/* Keep the biography with its heading in the left About column. */
+.about-title .about-intro{margin-top:24px}
+
+.zh .about h2{text-wrap:balance}
