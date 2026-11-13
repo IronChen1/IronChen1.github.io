@@ -30,3 +30,8 @@ section[id]{scroll-margin-top:24px}
 @media(max-width:900px){.about-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:26px}.about-title{padding:0}.about h2{margin-bottom:0}.about-intro{max-width:760px}.about-highlights{margin-top:2px}}
 @media(max-width:480px){.timeline>div{grid-template-columns:100px minmax(0,1fr);gap:12px}}
 @media(max-width:400px){.site-header nav{gap:11px;font-size:9px;letter-spacing:.04em}}
+
+/* Publisher citations link directly to the paper; project labels remain compact. */
+.journal-citation{color:#0000ff;font:12px/1.6 var(--sans)}.journal-citation:hover{text-decoration:underline}
+#software .pub-year>span{font:12px/1.6 var(--mono);padding-right:12px}#software .pubs-in-year p{font-size:13px;line-height:1.7}
+@media(max-width:720px){#software .pub-year{grid-template-columns:1fr;gap:10px}#software .pubs-in-year article{padding-top:0}}
